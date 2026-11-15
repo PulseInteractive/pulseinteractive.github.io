@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse Interactive | Creative Coding & Games</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: #0b0f19; color: #f3f4f6; font-family: system-ui, sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 2.5rem; color: #38bdf8; margin-bottom: 10px; }
+        p.subtitle { color: #94a3b8; font-size: 1.1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; width: 100%; max-width: 1000px; }
+        .card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 24px; transition: transform 0.2s, border-color 0.2s; }
+        .card:hover { transform: translateY(-4px); border-color: #38bdf8; }
+        .card h3 { color: #f8fafc; margin-bottom: 8px; font-size: 1.25rem; }
+        .card p { color: #94a3b8; font-size: 0.95rem; margin-bottom: 16px; line-height: 1.5; }
+        .btn { display: inline-block; background-color: #0284c7; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 0.9rem; }
+        .btn:hover { background-color: #0369a1; }
+        footer { margin-top: 60px; color: #64748b; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pulse Interactive</h1>
+        <p class="subtitle">Creative Coding Studio • p5.js • WebGL • Interactive Web Apps</p>
+    </header>
+    <div class="grid">
+        <div class="card">
+            <h3>Field Audio — Model H1</h3>
+            <p>Tactile audio hardware simulation and generative 3D synthesizer.</p>
+            <a href="https://editor.p5js.org/" target="_blank" class="btn">Play Demo</a>
+        </div>
+        <div class="card">
+            <h3>Routed</h3>
+            <p>Spatial optimization and circuit-routing logic puzzle connecting network nodes.</p>
+            <a href="https://editor.p5js.org/" target="_blank" class="btn">Play Demo</a>
+        </div>
+        <div class="card">
+            <h3>SectorMap</h3>
+            <p>Tactical sci-fi navigation interface and cloud analytics dashboard.</p>
+            <a href="https://editor.p5js.org/" target="_blank" class="btn">Launch App</a>
+        </div>
+        <div class="card">
+            <h3>Voxel Knight</h3>
+            <p>Isometric 3D voxel hack-and-slash dungeon crawler with grid combat.</p>
+            <a href="https://editor.p5js.org/" target="_blank" class="btn">Play Game</a>
+        </div>
+        <div class="card">
+            <h3>Event Horizon</h3>
+            <p>Intense arcade space shooter with full inertial flight and gravity wells.</p>
+            <a href="https://editor.p5js.org/" target="_blank" class="btn">Play Game</a>
+        </div>
+        <div class="card">
+            <h3>Polarity</h3>
+            <p>High-speed cybernetic corridor runner with gravity-flipping mechanics.</p>
+            <a href="https://editor.p5js.org/" target="_blank" class="btn">Play Game</a>
+        </div>
+    </div>
+    <footer>&copy; 2026 Pulse Interactive. Built with HTML, CSS & p5.js.</footer>
+</body>
+</html>
